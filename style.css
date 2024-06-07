@@ -7,6 +7,7 @@
 }
 body{
     background: black;
+    margin: 100px;
 }
 .lessons{
     display: flex;
@@ -36,7 +37,7 @@ h6{
     font-size: 3rem;
     display: none;
 }
-.container{
+.overview{
     text-align: center;
     height: 100vh;
     width: fit-content;
@@ -60,15 +61,49 @@ h6{
     border-radius: 20px;
     padding: 30px;
 }
-.links{
+.hide{
+    display: none;
+}
+.link{
     padding: 2rem;
+}
+#tab-1-content , #tab-2-content, #tab-3-content,#tab-4-content{
+    display: none;
+}
+.tabs .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tabs{
+    background-color: var(--dark-color);
+    padding-top: 1rem;
+    border-bottom: 3px solid #3d3d3d;
+}
+.tab-border{
+    border-bottom: red 4px solid;
+}
+.show{
+    display: block !important;
+    text-align: center;
 }
 h3{
     font-size: 2rem;
     color: slateblue;
 }
+
 ul, ol{
     list-style-type:none;
+}
+button{
+    width: 5rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
 }
 @media (max-width: 700px) {
     .container{
