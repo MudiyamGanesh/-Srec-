@@ -21,11 +21,8 @@ a{
     padding: 0.5rem;
     border-radius: 20px;
 }
-.container{
+.overview{
     display: block;
-}
-.hello{
-    display:none;
 }
 p{
     color: crimson;
