@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    gap: 2rem;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: black;
+}
+.lessons{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: teal;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+.container{
+    display: block;
+}
+p{
+    color: crimson;
+}
+h6{
+    font-size: 1rem;
+    padding: 20px;
+    color: orchid;
+}
+.hello{
+    padding: 50px ;
+    font-size: 3rem;
+    display: none;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    width: fit-content;
+}
+.heading{
+    color: tomato;
+    display: flex;
+    justify-content: space-between;
+    border: whitesmoke 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+}
+.image{
+    height: 80px;
+}
+.wrapper{
+    border: whitesmoke 2px solid;
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 30px;
+}
+.links{
+    padding: 2rem;
+}
+h3{
+    font-size: 2rem;
+    color: slateblue;
+}
+ul, ol{
+    list-style-type:none;
+}
+@media (max-width: 700px) {
+    .container{
+        display: none;
+    }
+    .hello{
+        display: block;
+    }
+}
