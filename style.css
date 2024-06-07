@@ -33,8 +33,6 @@ h6{
     color: orchid;
 }
 .hello{
-    padding: 50px ;
-    font-size: 3rem;
     display: none;
 }
 .overview{
@@ -111,5 +109,7 @@ button{
     }
     .hello{
         display: block;
+        padding: 50px ;
+        font-size: 3rem;
     }
 }
