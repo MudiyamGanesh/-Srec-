@@ -21,9 +21,6 @@ a{
     padding: 0.5rem;
     border-radius: 20px;
 }
-.overview{
-    display: block;
-}
 p{
     color: crimson;
 }
@@ -36,6 +33,7 @@ h6{
     display: none;
 }
 .overview{
+    display: block;
     text-align: center;
     height: 100vh;
     width: fit-content;
@@ -58,9 +56,6 @@ h6{
     margin: 1rem;
     border-radius: 20px;
     padding: 30px;
-}
-.hide{
-    display: none;
 }
 .link{
     padding: 2rem;
