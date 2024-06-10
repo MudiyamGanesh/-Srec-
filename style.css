@@ -86,8 +86,13 @@ h6{
 h3{
     font-size: 2rem;
     color: slateblue;
+    text-decoration: underline #5f3;
 }
-
+h2{
+    color: #5e65f3;
+    padding-top: 20px;
+    text-decoration: underline #5e6;
+}
 ul, ol{
     list-style-type:none;
 }
