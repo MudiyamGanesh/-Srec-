@@ -72,12 +72,11 @@ h6{
     text-align: center;
 }
 .tabs{
-    background-color: var(--dark-color);
     padding-top: 1rem;
     border-bottom: 3px solid #3d3d3d;
 }
 .tab-border{
-    border-bottom: red 4px solid;
+    border-bottom: slateblue 4px solid;
 }
 .show{
     display: block !important;
