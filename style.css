@@ -60,7 +60,7 @@ h6{
 .link{
     padding: 2rem;
 }
-#tab-1-content , #tab-2-content, #tab-3-content,#tab-4-content{
+#tab-1-content , #tab-2-content, #tab-3-content,#tab-4-content,#tab-5-content{
     display: none;
 }
 .tabs .container{
