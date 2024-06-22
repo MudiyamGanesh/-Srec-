@@ -17,5 +17,8 @@ function removeBorder(){
 function removeShow(){
     link.forEach(item => item.classList.remove('show'));
 }
+function alertUser(){
+    alert('please wait');
+}
     //Listen for tab click
 tabItems.forEach(item => item.addEventListener('click',selectItem));
